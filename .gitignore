@@ -1,0 +1,13 @@
+/vendor/
+composer.lock
+.env
+*.log
+
+# Bludit user data — never commit
+/bl-content/
+/bl-tmp/
+
+# IDE
+.idea/
+.vscode/
+*.DS_Store
