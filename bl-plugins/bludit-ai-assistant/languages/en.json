@@ -1,0 +1,14 @@
+{
+    "plugin-data": {
+        "name": "AI Assistant",
+        "description": "AI-powered titles, meta descriptions, and SEO keywords via OpenAI, Gemini, and DeepSeek."
+    },
+    "Enable AI Assistant": "Enable AI Assistant",
+    "Enabled": "Enabled",
+    "Disabled": "Disabled",
+    "AI Provider": "AI Provider",
+    "API Key": "API Key",
+    "Model": "Model",
+    "Max Tokens": "Max Tokens",
+    "Your key is stored encrypted and never exposed to the browser.": "Your key is stored encrypted and never exposed to the browser."
+}
