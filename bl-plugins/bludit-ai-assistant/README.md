@@ -2,7 +2,7 @@
 
 > AI-powered content assistant for [Bludit CMS](https://www.bludit.com/) — generate SEO titles, meta descriptions, and keyword suggestions directly inside the post editor.
 
-![CI](https://github.com/YOUR_GITHUB_USERNAME/bludit-ai-assistant/actions/workflows/ci.yml/badge.svg)
+![CI](https://github.com/saidothman/bludit-ai-assistant/actions/workflows/ci.yml/badge.svg)
 ![PHP](https://img.shields.io/badge/PHP-8.1%2B-777BB4?logo=php)
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Bludit](https://img.shields.io/badge/Bludit-4.0%2B-blue)
@@ -11,21 +11,22 @@
 
 ## ✦ Features
 
-| Feature | Description |
-|---|---|
-| **Title generator** | Produces 3 SEO-optimised post titles based on your content |
-| **Meta description** | Generates a 150–160 character meta description |
-| **Keyword suggestions** | Extracts 8 relevant SEO keywords |
-| **One-click insert** | Click any suggestion to copy it or insert it directly into the title field |
-| **Secure by design** | API key never leaves the server — all requests proxied through PHP |
-| **Rate limiting** | 10 requests per IP per minute, no Redis needed |
-| **CSRF protection** | Session-bound nonce on every AJAX request |
+| Feature                 | Description                                                                |
+| ----------------------- | -------------------------------------------------------------------------- |
+| **Title generator**     | Produces 3 SEO-optimised post titles based on your content                 |
+| **Meta description**    | Generates a 150–160 character meta description                             |
+| **Keyword suggestions** | Extracts 8 relevant SEO keywords                                           |
+| **One-click insert**    | Click any suggestion to copy it or insert it directly into the title field |
+| **Secure by design**    | API key never leaves the server — all requests proxied through PHP         |
+| **Rate limiting**       | 10 requests per IP per minute, no Redis needed                             |
+| **CSRF protection**     | Session-bound nonce on every AJAX request                                  |
 
 ---
 
 ## 📸 Demo
 
 <!-- Replace with your actual GIF -->
+
 ![AI Assistant Demo](docs/demo.gif)
 
 ---
@@ -60,12 +61,12 @@ git clone https://github.com/YOUR_GITHUB_USERNAME/bludit-ai-assistant.git
 
 ## Configuration
 
-| Setting | Default | Description |
-|---|---|---|
-| API Key | _(empty)_ | Your OpenAI secret key — stored server-side only |
-| Model | `gpt-4o-mini` | OpenAI model to use (mini = fast & cheap, gpt-4o = highest quality) |
-| Max Tokens | `300` | Maximum length of AI response |
-| Enabled | `true` | Toggle the plugin on/off without deactivating |
+| Setting    | Default       | Description                                                         |
+| ---------- | ------------- | ------------------------------------------------------------------- |
+| API Key    | _(empty)_     | Your OpenAI secret key — stored server-side only                    |
+| Model      | `gpt-4o-mini` | OpenAI model to use (mini = fast & cheap, gpt-4o = highest quality) |
+| Max Tokens | `300`         | Maximum length of AI response                                       |
+| Enabled    | `true`        | Toggle the plugin on/off without deactivating                       |
 
 ---
 
